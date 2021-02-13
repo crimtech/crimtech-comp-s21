@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+James Rogers
 
 My preferred email is:
-(email)
+jamesrogers@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2023
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science
 
 I'm living:
-(on-campus | city, state | city, country)
+Weymouth, MA
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+jamesrogers30
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+Class, hackathon, side projects, current internship
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Cheeseburgers
 
 My favorite movie is:
-(gone with the wind)
+Back to the Future
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+Netflix party with zoom in the top right corner is a must
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+Going out on the weekends (ahh the good old days when that was a thing)
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+N/A
