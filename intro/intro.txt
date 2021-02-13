@@ -4,37 +4,37 @@ My name is:
 Angela Li
 
 My preferred email is:
-(email)
+ayli@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+Applied Math / Stat (and maybe? CS)
 
 I'm living:
-(on-campus | city, state | city, country)
+on-campus! in thayer
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+angelayli
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+in CS50 LOL and a hs summer program + some math research
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+honestly love all food but asian is always great and i am a spicy food enthusiast
 
 My favorite movie is:
-(gone with the wind)
+idek bc yt >>> tv >>> movies
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+tbh good with anything 
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+going on walks 3x a day LMAOOOO and taste-testing interesting berg food... ish 
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+nothing i can think of :0
