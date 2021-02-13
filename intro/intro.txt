@@ -1,7 +1,7 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Angela Li
 
 My preferred email is:
 (email)
