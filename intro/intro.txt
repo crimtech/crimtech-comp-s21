@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Madison Shirazi
 
 My preferred email is:
-(email)
+madison.shirazi@thecrimson.com
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2023
 
-I'm (planning on) concentrating in:
-(concentration)
+I'm concentrating in:
+Math & Physics
 
 I'm living:
-(on-campus | city, state | city, country)
+New York, NY
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+mshirazi
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+random projects
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+pizza?
 
 My favorite movie is:
-(gone with the wind)
+hills have eyes 2 is probs the movie i think about the most, but not really in a good way...
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+i have never played among us :( 
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+walking to the trader joe's by the river (not the one in allston, that one sucks)
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+nothing yet haha
