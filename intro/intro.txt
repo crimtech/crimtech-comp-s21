@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Sophia Cho
 
 My preferred email is:
-(email)
+scho@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science or Statistics
 
 I'm living:
-(on-campus | city, state | city, country)
+Exeter, NH
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+scho24
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during classes/hackathons
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+anything Korean
 
 My favorite movie is:
-(gone with the wind)
+Roman Holiday
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+skribbl.io
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+going to Boston Tea Stop
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+N/A
