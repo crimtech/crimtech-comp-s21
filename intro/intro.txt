@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+David Qian
 
 My preferred email is:
-(email)
+dqian@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science
 
 I'm living:
-(on-campus | city, state | city, country)
+on-campus
 
 My timezone is:
-(EST + X)
+EST/EDT
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+diskualified
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during classes/hackathons
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Burgers
 
 My favorite movie is:
-(gone with the wind)
+Ford v Ferrari
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+Messing with backgrounds
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+Getting HUDS dessert
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+What are the units for 42?
