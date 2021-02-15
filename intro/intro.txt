@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+(Beverly)
 
 My preferred email is:
-(email)
+(beverlyfu@college.harvard.edu)
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+(2024)
 
 I'm (planning on) concentrating in:
-(concentration)
+(Applied Math with an area of application in the Biological Sciences)
 
-I'm living:
-(on-campus | city, state | city, country)
+I'm living in:
+(Singapore)
 
 My timezone is:
-(EST + X)
+(EST + 13h (after daylight savings ends, it'll be 12h))
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+(beverlyfujiali)
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+(during classes - cs51)
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+(waffles/japanese)
 
 My favorite movie is:
-(gone with the wind)
+(love actually)
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+(hmm... i like cooking with friends over zoom haha)
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+(never been to campus)
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+(what should i most look forward to when campus life resumes? :D)
