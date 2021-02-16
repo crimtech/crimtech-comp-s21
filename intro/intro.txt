@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Chris Lee
 
 My preferred email is:
-(email)
+christopherlee@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2023
 
 I'm (planning on) concentrating in:
-(concentration)
+Applied Math & CS
 
 I'm living:
-(on-campus | city, state | city, country)
+Somerville, MA
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+chrislee-hc
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during classes
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+spaghetti
 
 My favorite movie is:
-(gone with the wind)
+Coco
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+Skribbl
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+Seeing other people lol
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+CS 124
