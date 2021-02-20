@@ -19,3 +19,5 @@ If at any point you have any questions or concerns, let Max (max.bobby@thecrimso
 2/6 - Week 0: Introduction
 
 2/13 - Week 1: Git
+
+2/20 - Week 2: Python
