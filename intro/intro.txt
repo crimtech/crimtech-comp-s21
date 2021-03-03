@@ -1,40 +1,40 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Neeyanth Kopparapu
 
 My preferred email is:
-(email)
+nkopparapu@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+Applied Math + Economics
 
 I'm living:
-(on-campus | city, state | city, country)
+Belmont, MA, USA
 
 My timezone is:
-(EST + X)
+EST + 0
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+neeyanthkvk
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during jobs/internships
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Indian!
 
 My favorite movie is:
-(gone with the wind)
+Your Name
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+Keeping my camera off :) 
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+El Jefe. everyday
 
 Questions or concerns I have about the comp, school, or life in general:
-(42)
+Excited :D
