@@ -1,40 +1,41 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Jamie Lu
 
 My preferred email is:
-(email)
+jamielu@college.harvard.edu
 
 My class year is:
-(2021 | 2022 | 2023 | 2024)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+CS / Econ
 
 I'm living:
-(on-campus | city, state | city, country)
+on-campus
 
 My timezone is:
-(EST + X)
+EST
 
 My GitHub username is:
-(snickerdoodle_cookie_129)
+lujamie
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+class (CS50, CS51)
+clubs (T4SG)
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Asian cuisines
 
 My favorite movie is:
-(gone with the wind)
+Pride and Prejudice (2005)
 
 Things that I enjoy doing over zoom:
-(anything but playing among us)
+game night !!
 
 Things that I enjoy doing on campus:
-(going to KFT three times a day)
+sneaking onto the Science Center roof
 
 Questions or concerns I have about the comp, school, or life in general:
 (42)
