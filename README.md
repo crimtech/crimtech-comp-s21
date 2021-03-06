@@ -9,7 +9,7 @@ If at any point you have any questions or concerns, let Max (max.bobby@thecrimso
 
 **Meeting Location**: https://harvard.zoom.us/my/chaocheng
 
-**Office Hours**: TBD
+**Code-n-Chills**: [CrimTech gcal](https://calendar.google.com/calendar/render?cid=college.harvard.edu_i7j1c14k43lqk7081tfba28eak@group.calendar.google.com)
 
 **Recordings**: [here](https://drive.google.com/drive/folders/19IVIcLgtt-ahrh6lH9-yxtaXxAEVjoeb?usp=sharing)
 
@@ -21,3 +21,5 @@ If at any point you have any questions or concerns, let Max (max.bobby@thecrimso
 2/13 - Week 1: Git
 
 2/20 - Week 2: Python
+
+3/6 - Week 3: Javascript
