@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+       <title>Yoda Page</title> 
+       <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+       <script type="text/javascript" src="response_handler.js"></script>
     </head>
     <body>
-
+        <center>
+            <img src="img/cute-dark.jpg" id="yoda_pic" height="300">
+            <p id="yoda_text">To yoda chat I welcome you. Yes, hmmmmmm.</p>
+            <input type="text" id="desc" onkeydown="search(this)"><br/><br/>
+            <button onclick="response()">Response</button>
+            
+        </center>
+        
     </body>
 </html>

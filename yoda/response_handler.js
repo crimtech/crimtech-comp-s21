@@ -19,7 +19,41 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Difficult to see. Always in motion is the future."
 ];
 
-function respond() {
+function search() {
+    if (event.key === 'Enter') {
+        response()
+    }
+}
+
+function response() {
     // Your Code Here
-    console.log("Hello World!");
+    input = document.getElementById("desc").value
+    document.getElementById("desc").value = ''
+    console.log(input);
+
+    imgs = [[['regular-std', 'cute-std'], ['regular-std', 'cute-std']],
+            [['regular-force', 'cute-force'], ['regular-dark', 'cute-dark']]]
+    quotes = [dark_quotes, force_quotes, std_quotes]
+    hm = ['', ' Yes, h' + 'm'.repeat(Math.floor(Math.random() * 10) + 10)]
+
+    img = ''
+    quote = ''
+
+    baby = input.includes('cute') || input.includes('baby')
+    force = input.includes('force')
+    dark = input.includes('dark')
+    img = imgs[+ force][+ dark][+ baby]
+    if (baby) {
+        quote = hm[1]
+    }
+    else {
+        quote = random_choice(quotes[force ? (dark ? 0 : 1) : 2]) + random_choice(hm)
+    }
+
+    document.getElementById("yoda_pic").setAttribute("src", "img/" + img + ".jpg")
+    document.getElementById("yoda_text").textContent = quote
+}
+
+function random_choice(lst) {
+    return lst[Math.floor(Math.random() * lst.length)]
 }
