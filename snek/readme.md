@@ -11,7 +11,7 @@ git pull upstream master
 git push origin master
 ```
 
-The second line updates your local repository with the latest version of the original repo you forked from, and the third line pushes these changes to your own Github repository.
+The second line updates your local repository with the latest version of the original repo you forked from, and the third line pushes these changes to your own Github repository. If you get any merge conflicts, you need to edit the files where the conflict occurs, following git's instructions. Afterwards, run `git commit` to fix the merge conflict.
 
 ### Code Editor
 As we start coding, a code editor will be nice to have (if you aren't using one already). It adds syntax highlighting, auto-completion, and a whole slew of features designed to make writing code easier for you. We recommend [VSCode](https://code.visualstudio.com/), but you're free to choose whichever editor you like — a couple other options are [Sublime Text](https://www.sublimetext.com/) and [Atom](https://atom.io/).
@@ -109,7 +109,7 @@ You need to implement *two* of the features below. Document which two features b
 ## Submit!
 ```
 git add -A
-git commit -m "Submit Project 1"
+git commit -m "Submit Project 2"
 git push
 ```
 
