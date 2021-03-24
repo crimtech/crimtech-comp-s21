@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Test page </title>
+</head>
+
+<body>
+    <script>
+        console.log("You found me!");
+        function square(i) {
+            // Your code here!
+            var result = ''
+            if (Number.isInteger(i)) {
+                for (var j = 0; j < i; j++) {
+                    result = result.concat(String(j + 1));
+                }
+                return result;
+            }
+            else if (typeof i == "number") {
+                return i*i;
+            } else {
+                return -1;
+            }
+        }
+
+        function numberString(i) {
+            // Your code here!
+            return ""
+        }
+    </script>
+</body>

@@ -20,7 +20,7 @@
 
     Hint: what does `(int) (random.random()*10)` generate? Can you adjust the range of its output?
 
-3. In `sum.py`, write a program that takes a list `l` and a number `N` and returns `True` if any two distinct numbers in the list sum to `N`, and `False` otherwise.
+3. In `sum.py`, write a program that takes a list `l` and a number `N` and returns `True` if any two numbers in the list sum to `N`, and `False` otherwise.
 
     For example: given `l = [1, 2, 4, 5, 6]` and `N = 10`, the program should return `True`, because `4 + 6 = 10`.
     
