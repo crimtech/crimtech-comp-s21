@@ -7,14 +7,31 @@
 <body>
     <script>
         console.log("You found me!");
+        console.log("Hello World");
+
+        y="my favorite string";
+        console.log(y.includes("hello"));
+        console.log(y.repeat(10))
+
         function square(i) {
             // Your code here!
-            return 0
+            if (typeof(i) !== "number"){
+                return -1
+            } 
+            return i*i
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            x="";
+            if (i > 0){
+                for (let j=1; j<=i; j++){
+                    x=x.concat(j.toString());
+                }
+            }
+            return x;
         }
+        console.log(numberString(3));
+        // console.log(square("hello"));
     </script>
+    
 </body>

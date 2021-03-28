@@ -1,4 +1,5 @@
 // Declaring variables that you may want to use.
+
 let names = ['cute', 'regular'];
 let moods = ['dark', 'force', 'std'];
 
@@ -22,4 +23,61 @@ let std_quotes = ["Patience you must have, my young padawan.",
 function respond() {
     // Your Code Here
     console.log("Hello World!");
+    // var a = document.getElementById("yodaimg")
+    // a.setAttribute("src", "./img/cute-force.jpg");
+
+    // var b = document.getElementById("yodachat")
+    // b.textContent="Hehe";
+
+    var txtinput = document.getElementById('myText');
+    console.log(txtinput.value); 
+
+    c=txtinput.value
+    // console.log(c.search("baby"))
+
+    if (c.search("baby") != -1 || c.search("cute") != -1){
+        console.log(" 'baby' or 'cute' detected");
+        var a = document.getElementById("yodaimg")
+        a.setAttribute("src", "./img/cute-std.jpg");
+    }
+    if (c.search("force") != -1){
+        if (c.search("dark") != -1){
+            var a = document.getElementById("yodaimg")
+            a.setAttribute("src", "./img/regular-dark.jpg");       
+        }
+        else{
+            var a = document.getElementById("yodaimg")
+            a.setAttribute("src", "./img/regular-force.jpg");
+        }
+
+    }
+
+    var b = document.getElementById("yodachat");
+    random_m = Math.floor(Math.random() * 5);
+    console.log(random_m)
+    random_list = Math.floor(Math.random() * 3);
+    console.log("list: " + random_list)
+    random_quote = Math.floor(Math.random() * 5); 
+    console.log("list index: " + random_quote)
+    mstr=" hmm"
+    newstr=""
+
+    for (let i=0; i<random_m; i++){
+        mstr=mstr.concat("m");
+    }
+
+    if (random_list == 0){
+        newstr=dark_quotes[random_quote];
+    }
+    else if (random_list == 1){
+        newstr=force_quotes[random_quote];
+    }
+    else{
+        newstr=std_quotes[random_quote]; 
+    }
+    console.log("newstr: " + newstr);
+    b.textContent= newstr.concat(mstr);
+
+    // c = "example here".search("here");
+    // console.log(c);
 }
