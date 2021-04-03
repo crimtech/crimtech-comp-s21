@@ -21,5 +21,30 @@ let std_quotes = ["Patience you must have, my young padawan.",
 
 function respond() {
     // Your Code Here
-    console.log("Hello World!");
+    //console.log("Hello World!");
+    //document.getElementById("yodathought").innerHTML = dark_quotes[0]
+    //console.log(document.getElementById("entry").value)
+    document.getElementById("entry").value = "";
+
+    if (document.getElementById("entry") in ["cute", "Cute", "baby", "Baby"]) {
+        document.getElementById("yodapic").src = "img/cute-std.jpg"
+        var text = ""
+    }
+    else if (document.getElementById("entry") in ["force", "Force"] && document.getElementById("entry") in ["dark", "Dark"]) {
+        document.getElementById("yodapic").src = "img/regular-dark.jpg"
+        var text = dark_quotes[Math.floor(Math.random()*dark_quotes.length)]
+    }
+    else if (document.getElementById("entry") in ["force", "Force"]) {
+        document.getElementById("yodapic").src = "img/regular-force.jpg"
+        var text = force_quotes[Math.floor(Math.random()*force_quotes.length)]
+    }
+    else {
+        document.getElementById("yodapic").src = "img/regular-std.jpg"
+        var text = std_quotes[Math.floor(Math.random()*std_quotes.length)]
+    }
+    var str = " h"
+    for (i = 0; i < range(Math.floor(Math.random() * 100)); i++) {
+        str = str.concat("m")
+    }
+    document.getElementById("yodathought").innerHTML = text.concat(str)
 }

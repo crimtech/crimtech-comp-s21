@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <title>Yoda Chat</title>
+        <script type="text/javascript" src="response_handler.js"></script>
     </head>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
     <body>
-
+        <img id = "yodapic" src = "img/cute-std.jpg" class = "center" height = "400">
+        <p id = "yodathought" style = "text-align: center;">To Yoda Chat I welcome you. Yes, hmmmmm.</p>
+        <form action="/action_page.php" style = "text-align: center;">
+            <label for="entry"></label>
+            <input type="text" id="entry" name="entry"><br><br>
+            <input type="submit" id="submit" onclick="respond()" value="Respond">
+        </form>
+        <script>
+            var input = document.getElementById("entry");
+            input.addEventListener("keyup", function(event) {
+              if (event.keyCode === 13) {
+               event.preventDefault();
+               document.getElementById("submit").click();
+              }
+            });
+        </script>
     </body>
 </html>
