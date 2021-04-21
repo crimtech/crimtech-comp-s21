@@ -16,10 +16,9 @@
     <body>
         <img id = "yodapic" src = "img/cute-std.jpg" class = "center" height = "400">
         <p id = "yodathought" style = "text-align: center;">To Yoda Chat I welcome you. Yes, hmmmmm.</p>
-        <form action="/action_page.php" style = "text-align: center;">
-            <label for="entry"></label>
+        <form style = "text-align: center;">
             <input type="text" id="entry" name="entry"><br><br>
-            <input type="submit" id="submit" onclick="respond()" value="Respond">
+            <input type="submit" id="submit" onclick="respond(); document.getElementById('entry').value =''" value="Respond">
         </form>
         <script>
             var input = document.getElementById("entry");

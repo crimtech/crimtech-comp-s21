@@ -24,27 +24,29 @@ function respond() {
     //console.log("Hello World!");
     //document.getElementById("yodathought").innerHTML = dark_quotes[0]
     //console.log(document.getElementById("entry").value)
-    document.getElementById("entry").value = "";
+    
+    var input = document.getElementById("entry").value;
+    var pic = document.getElementById("yodapic");
+    var text = "";
 
-    if (document.getElementById("entry") in ["cute", "Cute", "baby", "Baby"]) {
-        document.getElementById("yodapic").src = "img/cute-std.jpg"
-        var text = ""
+    if (input.includes("baby") || input.includes("cute")) {
+        pic.setAttribute("src", "img/cute-std.jpg");
     }
-    else if (document.getElementById("entry") in ["force", "Force"] && document.getElementById("entry") in ["dark", "Dark"]) {
-        document.getElementById("yodapic").src = "img/regular-dark.jpg"
-        var text = dark_quotes[Math.floor(Math.random()*dark_quotes.length)]
+    else if (input.includes("force") && input.includes("dark")) {
+        pic.setAttribute("src", "img/regular-dark.jpg");
+        var text = dark_quotes[Math.floor(Math.random()*dark_quotes.length)];
     }
-    else if (document.getElementById("entry") in ["force", "Force"]) {
-        document.getElementById("yodapic").src = "img/regular-force.jpg"
-        var text = force_quotes[Math.floor(Math.random()*force_quotes.length)]
+    else if (input.includes("force")) {
+        pic.setAttribute("src", "img/regular-force.jpg");
+        var text = force_quotes[Math.floor(Math.random()*force_quotes.length)];
     }
     else {
-        document.getElementById("yodapic").src = "img/regular-std.jpg"
-        var text = std_quotes[Math.floor(Math.random()*std_quotes.length)]
+        pic.setAttribute("src", "img/regular-std.jpg");
+        var text = std_quotes[Math.floor(Math.random()*std_quotes.length)];
     }
-    var str = " h"
-    for (i = 0; i < range(Math.floor(Math.random() * 100)); i++) {
-        str = str.concat("m")
+    var str = " hm";
+    for (i = 0; i < range(Math.floor(Math.random() * 50)); i++) {
+        str = str.concat("m");
     }
-    document.getElementById("yodathought").innerHTML = text.concat(str)
+    document.getElementById("yodathought").innerHTML = text.concat(str);
 }
