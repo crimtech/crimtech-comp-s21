@@ -1,9 +1,48 @@
 <!DOCTYPE html>
+<link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+
 <html>
     <head>
-        
+        <title>Yoda</title>
+        <script>
+            document.getElementById("respond").innerHTML = "Hello JavaScript!";
+
+            function handler(evt){
+                if(evt.keyCode == 13) // enter key
+                     location.reload() // refresh page
+            }
+
+        </script>
     </head>
     <body>
+        <script type="text/javascript" src="response_handler.js"></script>
+        <h1>Yoda</h1>
+        <img 
+            id="yodaimg"
+            style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;"
+            src="./img/cute-dark.jpg" 
+            height="300" 
+            width="400"
+        >       
+        <p id="yodachat" style="text-align:center">To yoda chat I welcome you. Yes, hmmmmm.</p>
+        <center>
+            <input type="text" id="myText">
+            <button id="myBtn" onClick="respond(); document.getElementById('myText').value = ''">Respond</button>
+        </center>
+
+        <script>
+            var input = document.getElementById("myText");
+            input.addEventListener("keyup", function(event) {
+              if (event.keyCode === 13) {
+               event.preventDefault();
+               document.getElementById("myBtn").click();
+              }
+            });
+        </script>
+            
 
     </body>
 </html>
